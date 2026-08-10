@@ -3,9 +3,9 @@ const datos = {
     filas: [
         ['Intenciones', 'Melany'],
         ['Moniciones', 'Antonio'],
-        ['1ra.', 'Cesar'],
+        ['1ra.', 'Estela'],
         ['Salmo', 'Jazmin'],
-        ['2da.', 'Estela'],
+        ['2da.', 'Cesar'],
         ['O.F.', 'Marta'],
         [
             'Ofrendas',
