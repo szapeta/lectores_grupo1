@@ -1,23 +1,16 @@
 const datos = {
-    coordinador: 'Sergio',
+    coordinador: 'Mayerly',
     filas: [
-        ['Intenciones', 'Jhostin'],
-        ['Moniciones', 'Ana'],
-        ['1ra.', 'Rosa'],
-        ['Salmo', 'Mayerly'],
-        ['2da.', 'Marlon'],
-        ['O.F.', 'Marta'],
+        ['Intenciones', 'Emily'],
+        ['Moniciones', 'Marlon'],
+        ['1ra.', 'Estela'],
+        ['Salmo', 'Marta'],
+        ['2da.', 'Antonio'],
+        ['O.F.', 'Rosa'],
         [
             'Ofrendas',
             [
-                'Armando',
-                'Antonio',
-                'Cristina',
-                'Emily',
-                'Estela',
-                'Jazmin',
-                'Maribel Gil',
-                'Melany'
+                "Ana", "Armando", "Cesar", "Cristina", "Jazmin", "Jhostin", "Maribel Gil", "Melany", "Sergio"
             ]
         ]
     ]
