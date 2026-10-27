@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-tiempo="verde">
 
 <head>
     <meta charset="UTF-8">
@@ -8,28 +8,39 @@
 </head>
 
 <body>
-    <div class="card">
-
-        <div class="encabezado">
-
-            <div class="titulos">
-                <h2>Grupo #1</h2>
-                <h1>Domingo 18 oct | 6:00 AM</h1>
-            </div>
-
-            <img src="img/logo.png"
-                alt="Ministerio de Lectores"
-                class="logo">
-
+    <div class="pagina">
+        <div class="selector-color">
+            <label for="color-liturgico">Color</label>
+            <select id="color-liturgico">
+                <option value="verde" selected>Verde</option>
+                <option value="morado">Morado</option>
+                <option value="blanco">Blanco</option>
+                <option value="rojo">Rojo</option>
+            </select>
         </div>
-        <div class="tabla">
-            <div class="enc">
-                <div>Turno</div>
-                <div>Nombre</div>
+        <div class="card">
+
+            <div class="encabezado">
+
+                <div class="titulos">
+                    <h2>Grupo #1</h2>
+                    <h1 id="fecha" class="editable" contenteditable="true" spellcheck="false" data-placeholder="Fecha y hora">Domingo 18 oct | 6:00 AM</h1>
+                </div>
+
+                <img src="img/logo.png"
+                    alt="Ministerio de Lectores"
+                    class="logo">
+
             </div>
-            <div id="contenido"></div>
+            <div class="tabla">
+                <div class="enc">
+                    <div>Turno</div>
+                    <div>Nombre</div>
+                </div>
+                <div id="contenido"></div>
+            </div>
+            <div class="coordinador">Coordina: <strong id="coord" class="editable" contenteditable="true" spellcheck="false" data-placeholder="Nombre"></strong></div>
         </div>
-        <div class="coordinador">Coordina: <strong id="coord"></strong></div>
     </div>
     <script src="script.js"></script>
 </body>
